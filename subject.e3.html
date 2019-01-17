@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>实验平台3</title>
+<style>
+body
+{background-image:url('alert2.jpg');
+background-position:center center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+background-color:#98FB98}
+h1
+{text-align:center;}
+h2
+{text-align:center;}
+p
+{text-align:center}
+</style>
+<style>
+#header {
+    height: 230px;
+    background-color: #000;
+}
+#header_utilities {
+    color: white;
+	text-align:right;
+	font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
+}
+</style>
+<script src="js/plyr.js"></script>
+<link rel="stylesheet" href="css/plyr.css">
+</head>
+
+<body>
+<div id="header">
+<header class="header">
+</header>
+
+<div id="header_utilities">
+</br></br></br>
+<p style="color:white; font-size:40pt;text-align:center;">Psychology Experiment</p>
+
+<br />
+</div>
+<h1>正式实验</h1>
+<h2>STEP1.按键实验部分</h2>
+<p>请点击下面的提示，进入按键实验，</p>
+<p>完成试验后，所在网页会出现“实验结束，感谢参与！”字样表明按键实验结束。</p>
+<p>结束后，关闭按键实验网页，回到本网页，进行下面的问卷实验。</p>
+<div align="center">
+<a href="https://research.millisecond.com/weicong1203/stroop.web" target="_blank">
+<button>点击进入按键实验</button></a></div>
+<br />
+
+
+
+
+
+<h2>STEP2.视频部分</h2>
+<p>请点击下方按钮，观看视频，务必完整观看</p>
+<p>视频结束后，回到本界面，进入第三步问卷部分</p>
+
+<script language="javascript">
+   function randomurl(){
+     var url=new Array();
+     url[0]="positive.html";
+     url[1]="negative.html";
+     url[2]="neutral.html";
+     var ints=Math.ceil(Math.random()*100)%3;
+     window.open(url[ints]);  
+    }
+ </script>
+
+<div align="center"> 
+<a href="javascript:randomurl()">
+<button>点击播放视频</button></a>
+</div>
+<br />
+
+
+<h2>STEP3.问卷调查部分</h2>
+<p>请点击下面的提示，进入问卷调查，</p>
+<p>完成问卷调查后，所在网页会出现“问卷填写结束，感谢参与！”字样表明问卷调查结束。</p>
+<p>问卷调查结束后，整个实验就已经完成，无须再进行其他操作，请关闭问卷调查页面即可。</p>
+<div align="center"><a href="https://bnupsych.asia.qualtrics.com/jfe/form/SV_cGX0PRfg8R8tOoR"><button>点击进入问卷填写</button></a></div>
+<br /><br />
+</body>
+
+</html>
